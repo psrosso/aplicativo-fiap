@@ -1,0 +1,92 @@
+/*Chamada Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Caveat&display=swap');
+
+/*reset CSS mini - USE ISSO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Alegreya Sans SC',
+        sans-serif;
+    font-family: 'Caveat',
+        cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #966223;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/******************* TOUR ÍNICIO ********************/
+
+.tour {
+    width: 80%;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 40px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-title {
+    margin-bottom: 20px;
+    font-size: 6vmin;
+    text-align: center;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tour-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tour-list-item {
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.tour-list img {
+    width: 100%;
+    transition: .5s;
+}
+
+.tour-list img:hover {
+    transform: scale(1.2);
+}
+
+.tour-list-item h3 {
+    font-size: 4vmin;
+    margin: 20px 0;
+}
+
+.tour-list-item p {
+    font-size: 3vmin;
+    margin: 20px 0;
+}
+
+.btn {
+    border: 1px solid #043f2b;
+}
